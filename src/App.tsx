@@ -15,6 +15,8 @@ import MySQL from './images/skills/MySQL.png'
 import mongoDB from './images/skills/mongoDB.png'
 import expressjs from './images/skills/expressjs.png'
 import vscode from './images/skills/vscode.png'
+import reactjs from './images/skills/reactjs.webp'
+import nextjs from './images/skills/nextjs.png'
 
 function App() {
   return (
@@ -97,8 +99,8 @@ function App() {
                   <ol className="relative border-l border-gray-200 dark:border-gray-700">                  
                     <li className="mb-10 ml-4">
                       <div className="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700" />
-                      <time className="mb-1 text-sm font-normal leading-none text-gray-400">1998 - 2005</time>
-                      <h3 className="text-lg font-semibold text-gray-900">SD Negeri 4 Biau</h3>
+                      <time className="mb-1 text-sm font-normal leading-none text-gray-400">2008 - 2011</time>
+                      <h3 className="text-lg font-semibold text-gray-900">SMA Negeri 1 Biau</h3>
                       <p className="mb-4 text-base font-normal text-gray-500 dark:text-gray-400">Kab. Buol Sulawesi Tengah Indonesia</p>
                     </li>
                     <li className="mb-10 ml-4">
@@ -109,8 +111,8 @@ function App() {
                     </li>
                     <li className="mb-10 ml-4">
                       <div className="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700" />
-                      <time className="mb-1 text-sm font-normal leading-none text-gray-400">2008 - 2011</time>
-                      <h3 className="text-lg font-semibold text-gray-900">SMA Negeri 1 Biau</h3>
+                      <time className="mb-1 text-sm font-normal leading-none text-gray-400">1998 - 2005</time>
+                      <h3 className="text-lg font-semibold text-gray-900">SD Negeri 4 Biau</h3>
                       <p className="mb-4 text-base font-normal text-gray-500 dark:text-gray-400">Kab. Buol Sulawesi Tengah Indonesia</p>
                     </li>
                   </ol>
@@ -128,6 +130,8 @@ function App() {
                   <img className='w-20' src={sass} alt="SASS" />
                   <img className='w-20' src={tailwind} alt="TAILWINDCSS" />
                   <img className='w-20' src={bootstrap} alt="BOOTSTRAP" />
+                  <img className='w-20' src={reactjs} alt="ReactJS" />
+                  <img className='w-20' src={nextjs} alt="NextJS" />
                   <img className='w-20' src={laravel} alt="LARAVEL" />
                   <img className='w-20' src={nodejs} alt="NodeJS" />
                   <img className='w-20' src={expressjs} alt="ExpressJS" />
