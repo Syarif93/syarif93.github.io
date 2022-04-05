@@ -62,7 +62,7 @@ function App() {
               {({ selected }) => (
                 <button
                   type='button'
-                  className={`${selected && 'bg-emerald-500 text-white'} px-5 py-1 rounded-tl rounded-tr text-slate-900 text-lg font-bold`}
+                  className={`${selected && 'bg-emerald-500 text-white'} px-3 py-1 rounded-tl rounded-tr text-slate-900 text-base font-bold md:px-5 md:py-1 md:text-lg`}
                 >
                   Pendidikan
                 </button>
@@ -72,7 +72,7 @@ function App() {
               {({ selected }) => (
                 <button
                   type='button'
-                  className={`${selected && 'bg-emerald-500 text-white'} px-5 py-1 rounded-tl rounded-tr text-slate-900 text-lg font-bold`}
+                  className={`${selected && 'bg-emerald-500 text-white'} px-3 py-1 rounded-tl rounded-tr text-slate-900 text-base font-bold md:px-5 md:py-1 md:text-lg`}
                 >
                   Kemampuan
                 </button>
@@ -82,7 +82,7 @@ function App() {
               {({ selected }) => (
                 <button
                   type='button'
-                  className={`${selected && 'bg-emerald-500 text-white'} px-5 py-1 rounded-tl rounded-tr text-slate-900 text-lg font-bold`}
+                  className={`${selected && 'bg-emerald-500 text-white'} px-3 py-1 rounded-tl rounded-tr text-slate-900 text-base font-bold md:px-5 md:py-1 md:text-lg`}
                 >
                   Portfolio
                 </button>
@@ -138,7 +138,9 @@ function App() {
               </div>
             </Tab.Panel>
             <Tab.Panel>
-              <p className='text-xl text-center p-7 text-emerald-500 font-bold'>COMMING SOON</p>
+              <div className='p-7'>
+                <p className='text-xl text-center text-emerald-500 font-bold'>COMMING SOON</p>
+              </div>
             </Tab.Panel>
           </Tab.Panels>
         </Tab.Group>
